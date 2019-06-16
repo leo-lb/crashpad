@@ -15,6 +15,7 @@
 #ifndef CRASHPAD_COMPAT_LINUX_SYS_USER_H_
 #define CRASHPAD_COMPAT_LINUX_SYS_USER_H_
 
+#include <cstddef>
 #include_next <sys/user.h>
 
 #include <features.h>
